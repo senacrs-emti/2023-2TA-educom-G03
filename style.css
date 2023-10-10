@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    font-family: Manrope;
+    padding-top: 2%;
+}
+
+header h1{
+    margin-left: 1%;
+}
+
+header svg{
+    margin-bottom: 8px;
+    margin-left: 6px;
+}
+
+main{
+    display: block;
+    padding-left: 1%;
+    border: 2px solid black;
+    margin-left: 1%;
+}
+
+footer{
+    float: left;
+    height: 10%;
+}
+
+.content{
+    font-family: Manrope;
+    color: black;
+}
