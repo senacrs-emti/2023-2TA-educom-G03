@@ -4,11 +4,17 @@
     font-family: sans-serif;
 }
 
+main{
+    background-image:url(./Img_Strg/BGFill.png);
+}
+
 header{
     background-color: rgb(255, 255, 255);
     display:flex;
     padding-top: 1.5%;
 }
+
+
 
 h1,h2{
     font-family: IBM Plex Sans;
