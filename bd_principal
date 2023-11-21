@@ -1,7 +1,0 @@
-Create table Banco_Imagens(
-  ID INT(10);
-  Nome VARCHAR(45);
-  TAG VARCHAR(45);
-  SRC VARCHAR(95);
-  PRIMARY KEY (ID)
-)
