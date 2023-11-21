@@ -2,6 +2,11 @@
 include_once './header.php'
 ?> 
 
+<div class="carregar" id="carregar">
+        <div class="girando"></div>
+    </div>
+
+
  <?php 
               $host="localhost";
               $usuario="root";

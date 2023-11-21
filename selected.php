@@ -2,6 +2,11 @@
 include_once './header.php'
 ?> 
 
+<div class="carregar" id="carregar">
+        <div class="girando"></div>
+    </div>
+
+
  <?php 
 
 
@@ -17,12 +22,20 @@ if ($mysqli->connect_error) {
     die("Erro na conexão: " . $mysqli->connect_error);
 }
 
+
+
 $selecionar = null;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-$seleciona = implode($_POST); 
-$wrdsrc="SELECT SRC from teste_sql WHERE TAG LIKE '".$seleciona."' ;";
+
+$seleciona = $_POST['Filtros']; 
+
+
+
+$wrdsrc="SELECT SRC from teste_sql WHERE TAG IN ('". implode("','" , $seleciona) . "')";
+
 $selecionar=$mysqli->query($wrdsrc);
+
 }
 
 while ($row = $selecionar->fetch_assoc()) {
