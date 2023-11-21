@@ -1,23 +1,32 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-}
-
-main{
-    background-image:url(./Img_Strg/BGFill.png);
+    font-family: DM sans;
 }
 
 header{
     background-color: rgb(255, 255, 255);
     display:flex;
     padding-top: 1.5%;
+
+}
+
+header h1 a {
+    margin-left: 5%;
+     font-family:poppins;
+      text-decoration:none;
+       color:#ffffff;
+        /*background-color: #4317f2;*/
 }
 
 
+main{
+    border-bottom:2px solid #4317f2;
+    
+}
 
 h1,h2{
-    font-family: IBM Plex Sans;
+    font-family: poppins;
     font-weight: bolder;
     color: #4317f2;
 }
@@ -38,7 +47,7 @@ nav form input{
 
 
 a {
-    color: #000000;
+    color: #4317f2;
     text-decoration: none!important;
 }
 
@@ -46,6 +55,14 @@ a:hover {
     color:#4317f2; 
     text-decoration:none!important; 
     cursor:pointer;  
+}
+
+aside{
+
+    border:2px solid #4317f2;
+     border-top:none;
+      border-right:none;
+
 }
 
 aside h1{
