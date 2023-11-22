@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,600&family=Gabarito:wght@600&family=Manrope:wght@700&family=Poppins:wght@600&family=Space+Mono:wght@700&family=Trispace:wght@800&display=swap" rel="stylesheet">
-    <title>••MICRO••</title>
+    <title>MICRO</title>
     <link rel="icon" type="image/x-icon" href="./Img_Strg/Union.png">
   </head>
     <body class="container-fluid">
