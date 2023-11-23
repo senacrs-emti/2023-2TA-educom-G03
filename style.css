@@ -86,3 +86,9 @@ aside h1{
     margin-left: 2%;
     margin-top: 5%;
 }
+
+
+footer img{
+    max-height: auto;
+    max-width: auto;
+}

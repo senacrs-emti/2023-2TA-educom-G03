@@ -2,7 +2,7 @@
 
 
 
-<footer class="col-12"> adsadasd</footer>
+<footer class="row"><img src="./Img_Strg/Subtract.png" class="col-3"></footer>
 
 
 </body>
