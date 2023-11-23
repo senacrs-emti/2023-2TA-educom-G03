@@ -11,6 +11,11 @@ header{
 
 }
 
+header img {
+    max-width: 120px;
+    max-height: 120px;
+}
+
 header h1 a {
     margin-left: 5%;
      font-family:poppins;
@@ -88,7 +93,14 @@ aside h1{
 }
 
 
+footer{
+    background-image: url(./Img_Strg/BGFOOTER.png);
+    image-orientation: flip;
+    background-size: contain;
+}
+
 footer img{
     max-height: auto;
     max-width: auto;
+    background-color: #ffffff;
 }
