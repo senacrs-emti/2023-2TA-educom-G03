@@ -10,7 +10,7 @@ include_once './header.php'
               
               <section class="col-lg-12 mt-3">
                 <div class="row" >
-                  <div class="col" ><a href="Acervo.php"><h2>Acervo</h2></a>
+                  <div class="col" ><a href="Acervo.php"><h2>Acervo</h2></a><a href="Microscópios.php"><h2>Métodos</h2></a>
                   <p>Imagens de diferentes espécies e estruturas observadas em microscópios.</p></div>
                 </div>
               </section>
