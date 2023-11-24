@@ -18,7 +18,7 @@ header img {
 
 header h1 a {
     margin-left: 5%;
-     font-family:poppins;
+     font-family:Outfit;
       text-decoration:none;
        color:#ffffff;
         /*background-color: #4317f2;*/
@@ -32,7 +32,7 @@ main{
 }
 
 h1,h2{
-    font-family: poppins;
+    font-family: Outfit;
     font-weight: bolder;
     color: #4317f2;
 }
