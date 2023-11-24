@@ -23,7 +23,7 @@ $Carregar=$mysqli->query($Vomito);
 
 
 while ($row = $Carregar->fetch_assoc()) {
-  echo ("<img src=".$row['SRC']." class='imagens'>");
+  echo ("<a href='ImgAberta.php' class='imagens'><img src=".$row['SRC']." class='imagens'></a>");
 }
 
 

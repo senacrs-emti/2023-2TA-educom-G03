@@ -2,9 +2,7 @@
 include_once './header.php'
 ?> 
 
-<div class="carregar" id="carregar">
-        <div class="girando"></div>
-    </div>
+
 
 
  <?php 
@@ -23,14 +21,16 @@ include_once './header.php'
 
               if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $pesquisa = $_POST['pesquisa_sub']; 
-            $wrdsrc="SELECT SRC from teste_sql WHERE Nome LIKE '%".$pesquisa."%' ;";
+            $wrdsrc="SELECT SRC, ID from teste_sql WHERE Nome LIKE '%".$pesquisa."%' ;";
             $pesquisar=$mysqli->query($wrdsrc);
             }
             
               while ($row = $pesquisar->fetch_assoc()) {
-                echo ("<img src=".$row['SRC']." class='imagens'>");
+                echo $row['ID'];
+                echo ("<a href='ImgAberta.php?id=".$row['ID']."' class='imagens'><img src=".$row['SRC']." class='imagens'></a>");
             }
 
+            
             
         
             $mysqli->close();
