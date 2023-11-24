@@ -8,7 +8,7 @@ include_once './header.php'
 $host="localhost";
 $usuario="root";
 $senha="";
-$banco="Banco_Projeto";
+$banco="banco_teste";
 
 $mysqli=new mysqli($host,$usuario,$senha,$banco);
 

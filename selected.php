@@ -13,7 +13,7 @@ include_once './header.php'
 $host="localhost";
 $usuario="root";
 $senha="";
-$banco="Banco_Projeto";
+$banco="banco_teste";
 
 $mysqli=new mysqli($host,$usuario,$senha,$banco);
 
@@ -32,14 +32,14 @@ $seleciona = $_POST['Filtros'];
 
 
 
-$wrdsrc="SELECT SRC from teste_sql WHERE TAG IN ('". implode("','" , $seleciona) . "')";
+$wrdsrc="SELECT * from teste_sql WHERE TAG IN ('". implode("','" , $seleciona) . "')";
 
 $selecionar=$mysqli->query($wrdsrc);
 
 }
 
 while ($row = $selecionar->fetch_assoc()) {
-  echo ("<a href='ImgAberta.php' class='imagens'><img src=".$row['SRC']." class='imagens'></a>");
+  echo ("<a href='ImgAberta.php?id=".$row['ID']."' class='imagens'><img src=".$row['SRC']." class='imagens'></a>");
 }
 
 

@@ -8,7 +8,7 @@ include_once './header.php'
 $host="localhost";
 $usuario="root";
 $senha="";
-$banco="Banco_Projeto";
+$banco="banco_teste";
 
 $mysqli=new mysqli($host,$usuario,$senha,$banco);
 
@@ -17,9 +17,9 @@ if ($mysqli->connect_error) {
     die("Erro na conexão: " . $mysqli->connect_error);
 }
 
-$Vomito="SELECT SRC from teste_sql";
+$GERAL="SELECT SRC from teste_sql";
 
-$Carregar=$mysqli->query($Vomito);
+$Carregar=$mysqli->query($GERAL);
 
 
 while ($row = $Carregar->fetch_assoc()) {
