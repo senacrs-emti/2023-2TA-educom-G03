@@ -22,12 +22,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 $seleciona = $_POST['Filtros']; 
 
 
-
 $wrdsrc="SELECT * from teste_sql WHERE TAG IN ('". implode("','" , $seleciona) . "')";
 
 $selecionar=$mysqli->query($wrdsrc);
 
 }
+
 
 while ($row = $selecionar->fetch_assoc()) {
   echo ("<a href='ImgAberta.php?id=".$row['ID']."' class='imagens'><img src=".$row['SRC']." class='imagens'></a>");
