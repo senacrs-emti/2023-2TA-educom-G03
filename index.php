@@ -8,10 +8,10 @@ include_once './header.php'
 
       <main class="container-fluid col-8">
               
-              <section class="col-lg-12 mt-3">
+      <section class="col-lg-12 mt-3">
                 <div class="row" >
-                  <div class="col" ><a href="Acervo.php"><h2>Acervo</h2></a>
-                  <p>Imagens de diferentes espécies e estruturas observadas em microscópios.</p></div>
+                  <div class="col" ><a href="Tecidos.php"><h2>Tecidos</h2></a>
+                  <p>Imagens de tecidos.</p></div>
                 </div>
               </section>
               <section class="col-lg-12 mt-3">
@@ -22,14 +22,14 @@ include_once './header.php'
               </section>
               <section class="col-lg-12 mt-3">
                 <div class="row" >
-                  <div class="col" ><a href="Tecidos.php"><h2>Tecidos</h2></a>
-                  <p>Imagens de tecidos.</p></div>
+                  <div class="col" ><a href="Microscópios.php"><h2>Métodos</h2></a>
+                  <p>Entenda a diferença entre os métodos de observação.</p></div>
                 </div>
               </section>
               <section class="col-lg-12 mt-3">
                 <div class="row" >
-                  <div class="col" ><a href="Microscópios.php"><h2>Métodos</h2></a>
-                  <p>Entenda a diferença entre os métodos de observação.</p></div>
+                  <div class="col" ><a href="Acervo.php"><h2>Acervo</h2></a>
+                  <p>Imagens de diferentes espécies e estruturas observadas em microscópios.</p></div>
                 </div>
               </section>
 

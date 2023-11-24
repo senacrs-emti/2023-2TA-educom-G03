@@ -23,7 +23,7 @@ include_once './header.php'
                 <div class="row" >
                   <div class="col"><h2>Eletrônico</h2><p>Os microscópios eletrônicos utilizam feixes de elétrons e lentes eletromagnéticas para atingir altíssimos níveis de resolução na observação das amostras.<br>
     Devido a necessidade de analisar as amostras em um vácuo, não é possível observar espécimes vivos com este equipamento.<br>
-    Possui um limite de observação de até 0.1 nanômetro (0.4317f2001 metros), sendo utilizado em análises de materiais ultra-finos e amostras orgânicas muito pequenas.</p> 
+    Possui um limite de observação de até 0.1 nanômetro (0.000000001 metros), sendo utilizado em análises de materiais ultra-finos e amostras orgânicas muito pequenas.</p> 
     </div>
     <img src="./Img_Strg/michael-czGYgzmdYig-unsplash.jpg" style="height=25px; width:250px; margin-right:2.1%;  box-shadow: 5px 10px #4317f2;">
     </div>
