@@ -5,25 +5,20 @@ include_once './header.php'
 <?php 
 
 
-$host="localhost";
-$usuario="root";
-$senha="";
-$banco="banco_teste";
-
-$mysqli=new mysqli($host,$usuario,$senha,$banco);
+include './AcessoBanco.php';
 
 
 if ($mysqli->connect_error) {
     die("Erro na conexão: " . $mysqli->connect_error);
 }
 
-$GERAL="SELECT SRC from teste_sql";
+$GERAL="SELECT * from teste_sql";
 
 $Carregar=$mysqli->query($GERAL);
 
 
 while ($row = $Carregar->fetch_assoc()) {
-  echo ("<a href='ImgAberta.php' class='imagens'><img src=".$row['SRC']." class='imagens'></a>");
+  echo ("<a href='ImgAberta.php?id=".$row['ID']."' class='imagens'><img src=".$row['SRC']." class='imagens'></a>");
 }
 
 

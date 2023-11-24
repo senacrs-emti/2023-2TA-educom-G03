@@ -4,13 +4,7 @@ include_once './header.php'
 
 <?php 
 
-
-$host="localhost";
-$usuario="root";
-$senha="";
-$banco="banco_teste";
-
-$mysqli=new mysqli($host,$usuario,$senha,$banco);
+include './AcessoBanco.php';
 
 
 if ($mysqli->connect_error) {

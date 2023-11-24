@@ -2,20 +2,11 @@
 include_once './header.php'
 ?> 
 
-<div class="carregar" id="carregar">
-        <div class="girando"></div>
-    </div>
 
 
  <?php 
 
-
-$host="localhost";
-$usuario="root";
-$senha="";
-$banco="banco_teste";
-
-$mysqli=new mysqli($host,$usuario,$senha,$banco);
+include './AcessoBanco.php';
 
 
 if ($mysqli->connect_error) {
