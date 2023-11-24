@@ -16,13 +16,13 @@ include_once './header.php'
               </section>
               <section class="col-lg-12 mt-3">
                 <div class="row" >
-                  <div class="col" ><h2>Bactérias</h2>
+                  <div class="col" ><a href="Bactérias.php"><h2>Bactérias</h2></a>
                   <p>Imagens de diferentes espécies e estruturas observadas em microscópios.</p></div>
                 </div>
               </section>
               <section class="col-lg-12 mt-3">
                 <div class="row" >
-                  <div class="col" ><h2>Tecidos</h2>
+                  <div class="col" ><a href="Tecidos.php"><h2>Tecidos</h2></a>
                   <p>Imagens de diferentes espécies e estruturas observadas em microscópios.</p></div>
                 </div>
               </section>
