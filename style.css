@@ -82,7 +82,9 @@ aside h1{
     display: flex;
     margin-bottom: 6%;
     padding-left: 2%;
+    text-decoration: none;
 }
+
 
 .imagens{
     max-width: 200px;
@@ -94,7 +96,7 @@ aside h1{
 
 
 footer{
-    background-image: url(./Img_Strg/BGFOOTER.png);
+    background-image: url(./Img_Strg/TroçoEsquisito.png);
     image-orientation: flip;
     background-size: contain;
 }
