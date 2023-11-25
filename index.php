@@ -49,6 +49,10 @@ include_once './header.php'
           <label for="T5">Inorgânicos</label><br>
           <input type="checkbox" id="html" name="Filtros[]" value="Esquema">
           <label for="T6">Esquema</label><br>
+          <input type="checkbox" id="html" name="Filtros[]" value="Humano">
+          <label for="T7">Humano</label><br>
+          <input type="checkbox" id="html" name="Filtros[]" value="Esquema">
+          <label for="T8">Vegetal</label><br>
           <input type="submit" action="./selected.php" method="GET" for="Filtros" >
         </form>
 
