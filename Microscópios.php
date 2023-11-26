@@ -17,7 +17,7 @@ include_once './header.php'
                 </div>
                 <img src="./Img_Strg/pawel-czerwinski-JdtUKqGdqw8-unsplash.jpg" style="height=25px; width:250px; margin-right:2.1%;  box-shadow: 5px 10px #4317f2;">
 </div>
-<div class="Acesso_Esquemas">Acesse o esquema<a href="./Img_Strg/Group 20.png"><img src="./Img_Strg/ARROWIP.png" style="width:30px; height:15px; margin-left:10px;"></a></div>
+<div class="Acesso_Esquemas">Acesse o esquema<a href="./Img_Strg/ImgsBD/Group 20.png"><img src="./Img_Strg/ARROWIP.png" style="width:30px; height:15px; margin-left:10px;"></a></div>
 </section>
 <section class="col-12 mt-3">
                 <div class="row" >
@@ -27,7 +27,7 @@ include_once './header.php'
     </div>
     <img src="./Img_Strg/michael-czGYgzmdYig-unsplash.jpg" style="height=25px; width:250px; margin-right:2.1%;  box-shadow: 5px 10px #4317f2;">
     </div>
-    <div class="Acesso_Esquemas">Acesse o esquema<a href="./Img_Strg/Group 18.png"><img src="./Img_Strg/ARROWIP.png" style="width:30px; height:15px; margin-left:10px;"></a></div>
+    <div class="Acesso_Esquemas">Acesse o esquema<a href="./Img_Strg/ImgsBD/Group 18.png"><img src="./Img_Strg/ARROWIP.png" style="width:30px; height:15px; margin-left:10px;"></a></div>
 </section>
 <section class="col-12 mt-3">
                 <div class="row" >
@@ -37,7 +37,7 @@ include_once './header.php'
                 </div>
                 <img src="./Img_Strg/O-que-e-Microscopia-Eletronica-de-Varredura.jpg" style="height=25px; width:250px; margin-right:2.1%;  box-shadow: 5px 10px #4317f2;">
                 </div>
-                <div class="Acesso_Esquemas" >Acesse o esquema<a href="./Img_Strg/Varredura.png"><img src="./Img_Strg/ARROWIP.png" style="width:30px; height:15px; margin-left:10px;"></a></div>
+                <div class="Acesso_Esquemas" >Acesse o esquema<a href="./Img_Strg/ImgsBD/Varredura.png"><img src="./Img_Strg/ARROWIP.png" style="width:30px; height:15px; margin-left:10px;"></a></div>
 </section>
 </main>
 <aside class="container-fluid col" style="background-image:url(./Img_Strg/asop.png); background-repeat: round; background-size: cover;">
