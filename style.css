@@ -29,6 +29,7 @@ header h1 a {
 main{
     border-bottom:2px solid #4317f2;
     border-radius: 10px;
+    
 }
 
 h1,h2{
@@ -109,7 +110,7 @@ aside h1{
     max-width: 800px;
     max-height: 800px;
     float: left;
-    margin-left: 5%;
+    margin-left: 2%;
     margin-top: 3%;
     margin-bottom: 3%;
     border-radius: 5px;
