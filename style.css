@@ -28,7 +28,7 @@ header h1 a {
 
 main{
     border-bottom:2px solid #4317f2;
-    border-radius: 10px;
+
     
 }
 
@@ -49,7 +49,7 @@ input, input:hover{
 nav form input{
     position: relative;
     width: 100%;
-    border-radius: 10px;
+
 }
 
 
@@ -70,7 +70,7 @@ aside{
     border:2px solid #4317f2;
      border-top:none;
       border-right:none;
-      border-radius: 10px;
+
 
 }
 

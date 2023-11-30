@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 30/11/2023 às 11:33
+-- Tempo de geração: 30/11/2023 às 22:33
 -- Versão do servidor: 10.4.28-MariaDB
 -- Versão do PHP: 8.2.4
 
@@ -45,7 +45,10 @@ INSERT INTO `teste_sql` (`ID`, `SRC`, `Nome`, `TAG`, `Descri`) VALUES
 (5, './Img_Strg/ImgsBD/Eletro.png', 'Microscópio Eletrônico Esquema', 'Esquema Eletrônico', 'Esquema de microscópio eletrônico.'),
 (6, './Img_Strg/ImgsBD/Fluor.png', 'Microscópio Fluorescência Esquema', 'Esquema Fluor', 'Esquema de microscópio de fluorescência.'),
 (7, './Img_Strg/ImgsBD/41823.jpg', 'Desmid Micrasterias Divisão Celular', 'Óptico Vegetal', 'Alga verde em divisão. Simetria Bilateral.'),
-(8, './Img_Strg/ImgsBD/desmidlarge.jpg', 'Desmid Micrasterias Microscópio Óptico', 'Óptico Vegetal', 'Alga verde observada por microscópio óptico.');
+(8, './Img_Strg/ImgsBD/desmidlarge.jpg', 'Desmid Micrasterias Microscópio Óptico', 'Óptico Vegetal', 'Alga verde observada por microscópio óptico.'),
+(9, './Img_Strg/ImgsBD/paramecium.jpg', 'Protozoário Paramecium Óptico', 'Óptico Protozoários', 'Protozoário do gênero Paramecium observado em microscópio óptico.'),
+(10, './Img_Strg/ImgsBD/38950.jpg', 'Fungi Aspergillus Óptico', 'Fungo Óptico', 'Fungo do gênero Aspergillus observado em microscópio óptico.'),
+(11, './Img_Strg/ImgsBD/35381.jpg', 'Cromossomo Humano Feminino', 'Humano Eletrônico', 'Cromossomo humano feminino observado por microscópio eletrônico.');
 
 --
 -- Índices para tabelas despejadas
@@ -65,7 +68,7 @@ ALTER TABLE `teste_sql`
 -- AUTO_INCREMENT de tabela `teste_sql`
 --
 ALTER TABLE `teste_sql`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
