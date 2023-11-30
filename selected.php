@@ -21,8 +21,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 $seleciona = $_POST['Filtros']; 
 
-$wrdsrc="SELECT * from teste_sql WHERE TAG LIKE ('%". implode("''" , $seleciona) . "%')";
-print_r($wrdsrc);
+$wrdsrc= "SELECT * FROM teste_sql WHERE TAG LIKE '%" . implode("%' OR TAG LIKE '%", $seleciona) . "%'";
+        
+
 
 $selecionar=$mysqli->query($wrdsrc);
 }
