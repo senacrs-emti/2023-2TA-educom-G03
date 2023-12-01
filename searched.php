@@ -16,7 +16,7 @@ include './AcessoBanco.php';
 
               if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $pesquisa = $_POST['pesquisa_sub']; 
-            $wrdsrc="SELECT SRC, ID from teste_sql WHERE Nome LIKE '%".$pesquisa."%' ;";
+            $wrdsrc="SELECT SRC, ID from teste_sql WHERE TAG LIKE '%".$pesquisa."%' ;";
             $pesquisar=$mysqli->query($wrdsrc);
             }
             
