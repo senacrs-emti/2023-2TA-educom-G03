@@ -45,8 +45,6 @@ include_once './header.php'
           <label for="T3">Bactérias</label><br>
           <input type="checkbox" id="html" name="Filtros[]" value="Protozoários">
           <label for="T4">Protozoários</label><br>
-          <input type="checkbox" id="html" name="Filtros[]" value="Inorgânicos">
-          <label for="T5">Inorgânicos</label><br>
           <input type="checkbox" id="html" name="Filtros[]" value="Esquema">
           <label for="T6">Esquema</label><br>
           <input type="checkbox" id="html" name="Filtros[]" value="Humano">
@@ -55,6 +53,10 @@ include_once './header.php'
           <label for="T8">Vegetal</label><br>
           <input type="checkbox" id="html" name="Filtros[]" value="Fungo">
           <label for="T9">Fungo</label><br>
+          <input type="checkbox" id="html" name="Filtros[]" value="Célula">
+          <label for="T10">Célula</label><br>
+          <input type="checkbox" id="html" name="Filtros[]" value="Tecido">
+          <label for="T11">Tecido</label><br>
           <input type="submit" action="./selected.php" method="GET" for="Filtros" >
         </form>
 

@@ -12,9 +12,9 @@ if ($mysqli->connect_error) {
     die("Erro na conexão: " . $mysqli->connect_error);
 }
 
-$Teci="SELECT SRC from teste_sql WHERE TAG='Tecidos' ";
+$Celu="SELECT * from teste_sql WHERE TAG LIKE '%Célula%' ";
 
-$Carregar=$mysqli->query($Teci);
+$Carregar=$mysqli->query($Celu);
 
 
 while ($row = $Carregar->fetch_assoc()) {
