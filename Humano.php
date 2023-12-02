@@ -12,13 +12,13 @@ if ($mysqli->connect_error) {
     die("Erro na conexão: " . $mysqli->connect_error);
 }
 
-$Celu="SELECT * from teste_sql WHERE TAG LIKE '%Célula%' ";
+$Huma="SELECT * from teste_sql WHERE TAG LIKE '%Humano%' ";
 
-$Carregar=$mysqli->query($Celu);
+$Carregar=$mysqli->query($Huma);
 
 
 while ($row = $Carregar->fetch_assoc()) {
-  echo ("<img src=".$row['SRC']." class='imagens'>");
+  echo ("<a href='ImgAberta.php?id=".$row['ID']."' class='imagens'><img src=".$row['SRC']." class='imagens'></a>");
 }
 
 

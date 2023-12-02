@@ -18,7 +18,7 @@ $Carregar=$mysqli->query($Bact);
 
 
 while ($row = $Carregar->fetch_assoc()) {
-  echo ("<img src=".$row['SRC']." class='imagens'>");
+  echo ("<a href='ImgAberta.php?id=".$row['ID']."' class='imagens'><img src=".$row['SRC']." class='imagens'></a>");
 }
 
 
