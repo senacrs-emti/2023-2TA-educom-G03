@@ -1,11 +1,6 @@
 <?php
 include_once './header.php'
 ?>
-
-
-
-
-
       <main class="container-fluid col-8">
               
       <section class="col-lg-12 mt-3">
@@ -45,8 +40,6 @@ include_once './header.php'
           <label for="T3">Bactérias</label><br>
           <input type="checkbox" id="html" name="Filtros[]" value="Protozoários">
           <label for="T4">Protozoários</label><br>
-          <input type="checkbox" id="html" name="Filtros[]" value="Esquema">
-          <label for="T6">Esquema</label><br>
           <input type="checkbox" id="html" name="Filtros[]" value="Animal">
           <label for="T7">Animal</label><br>
           <input type="checkbox" id="html" name="Filtros[]" value="Vegetal">

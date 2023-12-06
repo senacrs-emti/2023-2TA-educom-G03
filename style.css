@@ -16,6 +16,10 @@ header img {
     max-height: 80px;
 }
 
+#UploadIMG{
+    margin-left: 60%;
+}
+
 header h1 a {
     margin-left: 5%;
      font-family:Outfit;

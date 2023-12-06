@@ -19,6 +19,7 @@
       
       <header class="row">
           <h1><a href="index.php"><img src="./Img_Strg/LOGO MICRO GERM.png" style="max-width:300px;"></a></h1><img src="./Img_Strg/LOGO3D.png" class="mt-1 ml-4" style="max-width: 50px; max-height: 40px;">
+          <a href="UploadWndw.php" id="UploadIMG"><img src="./Img_Strg/UploadArrow.png" style="max-width:100px;"></a>
           <div class="col-12">
                 <nav>
                   <form id="pesquisa_barra" type="search" method="post"  action="searched.php" style="margin-top: 2%;">
@@ -26,8 +27,8 @@
                   </form>
                 </nav>
               </div>
-            </nav>
           </div>
+          
       </header>
     
       <div class="row">
